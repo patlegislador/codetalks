@@ -16,12 +16,18 @@ body {
   color: #fff;
   font-family: "Raleway", sans-serif;
   font-size: 17px;
+  min-width: 700px;
 }
 
 .header img {
   max-width: 300px;
   margin-top: 20px;
   margin-left: -45px;
+}
+
+.headerlogo:hover {
+  outline: none;
+  background: none;
 }
 
 .header {
@@ -97,7 +103,7 @@ h4.person-name {
   padding: 1.3em 0;
 }
 
-.nav-bar a:hover {
+.nav-bar .animated:hover {
   background: rgba(0, 0, 0, 0.2);
   transform: scale(1.2, 1.2);
 }
@@ -211,7 +217,7 @@ h4.person-name {
 }
 
 #podcast-info {
-  padding-top: 9em;
+  margin-top: 9em;
 }
 
 .podcast-info-inner {
