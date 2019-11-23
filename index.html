@@ -19,11 +19,6 @@
 </head>
 
 <body>
-    <audio id="myAudio">
-        <source src="resources/episode1.m4a" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio>
-
 
     <div class="row nav-bar sticky-top" style="margin: auto;">
         <a href="#" class="headerlogo"><img src="resources/codetalks.png" class="logoimage"></a>
@@ -37,15 +32,17 @@
     <section class='header container'>
         <div class="row">
 
-            <div class='header-right col-lg-6 featured-epsiode'>
+            <div class='header-right col-lg-6 featured-episode'>
 
-                <h3 class="episodeline">Episode 1</h3>
-                <i class="fas fa-play" onclick="playAudio()"></i></i>
-                <i class="fas fa-pause" onclick="pauseAudio()"></i>
-                <h3 class="tagline">What makes a great website?!</h3>
+                <h3 class="episodeline">CodeTalks 001:</h3>
+                <audio id="myAudio" controls>
+                    <source src="resources/sample.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <h3 class="tagline"> Progressive Web Applications</h3>
             </div>
 
-            <div class="person col-11 col-lg-5">
+            <div class="person col-11 col-lg-5 mt-5 mt-lg-0">
                 <div class="row">
                     <div class="ol-3c">
                         <img src="resources/patrick.jpg" alt="Patrick Legislador">
@@ -54,8 +51,8 @@
                         <h4 class='person-name'>Patrick Legislador</h4>
                         <a target="_blank" href='https://www.linkedin.com/in/patlegislador/'>@patlegislador</a>
                     </div>
-                    <p class='person-desc col-12'>Patrick is going to let you know the coolest trends in Web development
-                        that will make your website standout and engage your crowd</p>
+                    <p class='person-desc col-12'>Patrick is going to discuss what PWAs (Progressive Web Applications)
+                        are, how to conform to the PWA standard and how it fits in the future of web development.</p>
                 </div>
             </div>
 
@@ -157,38 +154,38 @@
 
                 <div class="review-item col-8 col-lg-3 mt-3">
                     <div class="reviewText">
-                        <p>Probably the best way to use my phone. This is a revolutionary way to learn code. The
-                            comments on each question/section adds a real world perspective.</p>
+                        <p>Probably the best way to use my phone. This is a revolutionary way to learn code. Each
+                            episode is just very informational and entertaining.</p>
                     </div>
                     <div class="review-user">
                         <img src="resources/reviewer1.jpg" alt="">
-                        <span>Gina Linetti</span>
+                        <span>Gina Jamison</span>
                     </div>
                 </div>
 
                 <div class="review-item col-8 col-lg-3 mt-3">
                     <div class="reviewText">
                         <p>Wow... I mean... WOW! Boys and girls, just go for it... I mean, it's just so simple, so
-                            pretty and well organized. I've been looking for free, self learning tools all over for all
-                            kinds of stuff and this is by far, the best one. Just too good! And by the way, the
-                            community is there, always, to help.</p>
+                            fun and educational. I've been looking for ways to be productive on my down times and this
+                            website is my new go-to. Listening to you guys while driving or even while working out
+                            definitely helps me be a better developer.</p>
                     </div>
                     <div class="review-user">
                         <img src="resources/reviewer2.jpeg" alt="">
-                        <span>Jake Peralta</span>
+                        <span>Jake Lockhart</span>
                     </div>
                 </div>
 
                 <div class="review-item col-8 col-lg-3 mt-3">
                     <div class="reviewText">
-                        <p>Appreciations! Superb application with step-by-step teaching. You are making a lot of impacts
-                            especially in Ghana, Africa. I couldn't afford the university to learn to code. Thanks so
-                            much. Keep it up.</p>
+                        <p>Superb podcast with step-by-step teaching. You are making a lot of impacts
+                            especially in Ghana, Africa. I couldn't afford the university to learn to code, but this
+                            helps a lot. Thank you so much.</p>
                     </div>
 
                     <div class="review-user">
                         <img src="resources/reviewer3.jpg" alt="">
-                        <span>Terry Jeffords</span>
+                        <span>Terry Jones</span>
                     </div>
                 </div>
 
@@ -205,7 +202,7 @@
                 <a href="#"><i class="col-3 fab fa-facebook-square"></i></a>
                 <a href="#"><i class="col-3 fab fa-github-square"></i></a>
                 <a href="#"><i class="col-3 fab fa-linkedin"></i></i></a>
-                <p class='col-12'>© 2019 CodeTalks Podcast</p>
+                <p class='col-12'>© 2019 CodeTalks</p>
             </div>
         </div>
     </section>
