@@ -336,7 +336,5 @@ h4.person-name {
 /** MEDIA QUERIES **/
 
 @media all and (max-width: 1000px) {
-  .header-left img {
-    display: none;
-  }
+
 }
